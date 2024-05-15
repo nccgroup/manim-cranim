@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "manim-cranim"
+version = "0.1.0"
+description = "Manim plugin for cryptographic animations"
+authors = ["eli.sohl <eli.sohl@nccgroup.com>"]
+readme = "README.md"
+packages = [{include = "manim_cranim", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+manim = "^0.17"
+pycryptodome = "^3.17"
+
+[tool.poetry.plugins."manim.plugins"]
+"manim_cranim" = "manim_cranim"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
