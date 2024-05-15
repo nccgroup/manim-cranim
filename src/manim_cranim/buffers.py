@@ -271,7 +271,7 @@ class Block(VGroup):
     @staticmethod
     def _normalize_fill_colors(c_fills, block_size):
         fill_colors = C_BOX_BG if c_fills is None else c_fills
-        if isinstance(fill_colors, str):
+        if isinstance(fill_colors, (str, ManimColor)):
             fill_colors = [fill_colors] * block_size
         else:
             assert len(fill_colors) == block_size  # type: ignore  # TODO fix bg_colors type annotation
@@ -280,7 +280,7 @@ class Block(VGroup):
     @staticmethod
     def _normalize_text_colors(c_texts, c_stroke, c_fills, block_size):
         text_colors = C_STROKE if c_texts is None else c_texts
-        if isinstance(text_colors, str):
+        if isinstance(text_colors, (str, ManimColor)):
             text_colors = [text_colors] * block_size
         else:
             assert len(text_colors) == block_size  # type: ignore  # TODO same as above
