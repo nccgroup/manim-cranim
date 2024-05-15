@@ -1,12 +1,10 @@
 # Example Gallery
 
 
-[[_TOC_]]
-
 ##  Showcase
 
 
-![ECBvsCBCExample](examples/renders/ECBvsCBCExample.mp4)
+![ECBvsCBCExample](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/ECBvsCBCExample.mp4)
 
 ```python
 class ECBvsCBCExample(Scene):
@@ -42,7 +40,7 @@ class ECBvsCBCExample(Scene):
 
 -----
 
-![CTSExample](examples/renders/CTSExample_ManimCE_v0.17.3.png)
+![CTSExample](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/CTSExample_ManimCE_v0.18.1.png)
 
 ```python
 class CTSExample(Scene):
@@ -72,7 +70,7 @@ class CTSExample(Scene):
 
 -----
 
-![SlideExample1](examples/renders/SlideExample1.mp4)
+![SlideExample1](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/SlideExample1.mp4)
 
 ```python
 class SlideExample1(Scene):
@@ -128,7 +126,7 @@ class SlideExample1(Scene):
 
 -----
 
-![CodeRewriteExample1](examples/renders/CodeRewriteExample1.mp4)
+![CodeRewriteExample1](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/CodeRewriteExample1.mp4)
 
 ```python
 class CodeRewriteExample1(Scene):
@@ -146,7 +144,7 @@ class CodeRewriteExample1(Scene):
 ## BendyArrow
 
 
-![BendyArrowExample1](examples/renders/BendyArrowExample1_ManimCE_v0.17.3.png)
+![BendyArrowExample1](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/BendyArrowExample1_ManimCE_v0.18.1.png)
 
 ```python
 class BendyArrowExample1(Scene):
@@ -174,7 +172,7 @@ class BendyArrowExample1(Scene):
 ## Block
 
 
-![SlideExample1](examples/renders/SlideExample1.mp4)
+![SlideExample1](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/SlideExample1.mp4)
 
 ```python
 class SlideExample1(Scene):
@@ -230,7 +228,7 @@ class SlideExample1(Scene):
 
 -----
 
-![BlockExample1](examples/renders/BlockExample1.mp4)
+![BlockExample1](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/BlockExample1.mp4)
 
 ```python
 class BlockExample1(Scene):
@@ -244,7 +242,7 @@ class BlockExample1(Scene):
 
 -----
 
-![BlockExample2](examples/renders/BlockExample2_ManimCE_v0.17.3.png)
+![BlockExample2](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/BlockExample2_ManimCE_v0.18.1.png)
 
 ```python
 class BlockExample2(Scene):
@@ -259,7 +257,7 @@ class BlockExample2(Scene):
 
 -----
 
-![BlockExample3](examples/renders/BlockExample3_ManimCE_v0.17.3.png)
+![BlockExample3](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/BlockExample3_ManimCE_v0.18.1.png)
 
 ```python
 class BlockExample3(Scene):
@@ -285,7 +283,7 @@ class BlockExample3(Scene):
 ## BoxLen
 
 
-![BoxLenExample1](examples/renders/BoxLenExample1.mp4)
+![BoxLenExample1](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/BoxLenExample1.mp4)
 
 ```python
 class BoxLenExample1(Scene):
@@ -299,7 +297,7 @@ class BoxLenExample1(Scene):
 
 -----
 
-![BoxLenExample2](examples/renders/BoxLenExample2.mp4)
+![BoxLenExample2](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/BoxLenExample2.mp4)
 
 ```python
 class BoxLenExample2(Scene):
@@ -331,7 +329,7 @@ class BoxLenExample2(Scene):
 ## BufferToText
 
 
-![BufferToTextExample1](examples/renders/BufferToTextExample1.mp4)
+![BufferToTextExample1](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/BufferToTextExample1.mp4)
 
 ```python
 class BufferToTextExample1(Scene):
@@ -349,7 +347,7 @@ class BufferToTextExample1(Scene):
 ## ByteBox
 
 
-![ByteBoxExample1](examples/renders/ByteBoxExample1_ManimCE_v0.17.3.png)
+![ByteBoxExample1](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/ByteBoxExample1_ManimCE_v0.18.1.png)
 
 ```python
 class ByteBoxExample1(Scene):
@@ -364,7 +362,7 @@ class ByteBoxExample1(Scene):
 
 -----
 
-![ByteBoxExample2](examples/renders/ByteBoxExample2.mp4)
+![ByteBoxExample2](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/ByteBoxExample2.mp4)
 
 ```python
 class ByteBoxExample2(Scene):
@@ -413,7 +411,7 @@ class ByteBoxExample2(Scene):
 ## CBCBlock
 
 
-![CBCExample1](examples/renders/CBCExample1_ManimCE_v0.17.3.png)
+![CBCExample1](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/CBCExample1_ManimCE_v0.18.1.png)
 
 ```python
 class CBCExample1(Scene):
@@ -424,7 +422,7 @@ class CBCExample1(Scene):
 
 -----
 
-![CBCExample2](examples/renders/CBCExample2_ManimCE_v0.17.3.png)
+![CBCExample2](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/CBCExample2_ManimCE_v0.18.1.png)
 
 ```python
 class CBCExample2(Scene):
@@ -437,7 +435,7 @@ class CBCExample2(Scene):
 
 -----
 
-![CBCExample3](examples/renders/CBCExample3_ManimCE_v0.17.3.png)
+![CBCExample3](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/CBCExample3_ManimCE_v0.18.1.png)
 
 ```python
 class CBCExample3(Scene):
@@ -450,7 +448,7 @@ class CBCExample3(Scene):
 
 -----
 
-![CBCExample4](examples/renders/CBCExample4.mp4)
+![CBCExample4](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/CBCExample4.mp4)
 
 ```python
 class CBCExample4(MovingCameraScene):  # Loops seamlessly
@@ -491,7 +489,7 @@ class CBCExample4(MovingCameraScene):  # Loops seamlessly
 
 -----
 
-![CBCExample5](examples/renders/CBCExample5_ManimCE_v0.17.3.png)
+![CBCExample5](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/CBCExample5_ManimCE_v0.18.1.png)
 
 ```python
 class CBCExample5(Scene):
@@ -503,7 +501,7 @@ class CBCExample5(Scene):
 
 -----
 
-![CBCExample6](examples/renders/CBCExample6.mp4)
+![CBCExample6](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/CBCExample6.mp4)
 
 ```python
 class CBCExample6(Scene):
@@ -519,7 +517,7 @@ class CBCExample6(Scene):
 ## CodeRewrite
 
 
-![CodeRewriteExample1](examples/renders/CodeRewriteExample1.mp4)
+![CodeRewriteExample1](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/CodeRewriteExample1.mp4)
 
 ```python
 class CodeRewriteExample1(Scene):
@@ -537,7 +535,7 @@ class CodeRewriteExample1(Scene):
 ## Cycle
 
 
-![CycleExample1](examples/renders/CycleExample1.mp4)
+![CycleExample1](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/CycleExample1.mp4)
 
 ```python
 class CycleExample1(Scene):
@@ -553,7 +551,7 @@ class CycleExample1(Scene):
 ## ECBBlock
 
 
-![ECBExample1](examples/renders/ECBExample1_ManimCE_v0.17.3.png)
+![ECBExample1](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/ECBExample1_ManimCE_v0.18.1.png)
 
 ```python
 class ECBExample1(Scene):
@@ -563,7 +561,7 @@ class ECBExample1(Scene):
 
 -----
 
-![ECBExample3](examples/renders/ECBExample3.mp4)
+![ECBExample3](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/ECBExample3.mp4)
 
 ```python
 class ECBExample3(Scene):
@@ -582,7 +580,7 @@ class ECBExample3(Scene):
 
 -----
 
-![ECBExample4](examples/renders/ECBExample4_ManimCE_v0.17.3.png)
+![ECBExample4](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/ECBExample4_ManimCE_v0.18.1.png)
 
 ```python
 class ECBExample4(Scene):
@@ -596,7 +594,7 @@ class ECBExample4(Scene):
 ## ECBBlocks
 
 
-![ECBExample2](examples/renders/ECBExample2_ManimCE_v0.17.3.png)
+![ECBExample2](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/ECBExample2_ManimCE_v0.18.1.png)
 
 ```python
 class ECBExample2(Scene):
@@ -608,7 +606,7 @@ class ECBExample2(Scene):
 ## FuncBox
 
 
-![FuncBoxExample1](examples/renders/FuncBoxExample1_ManimCE_v0.17.3.png)
+![FuncBoxExample1](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/FuncBoxExample1_ManimCE_v0.18.1.png)
 
 ```python
 class FuncBoxExample1(Scene):
@@ -618,7 +616,7 @@ class FuncBoxExample1(Scene):
 
 -----
 
-![FuncBoxExample2](examples/renders/FuncBoxExample2_ManimCE_v0.17.3.png)
+![FuncBoxExample2](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/FuncBoxExample2_ManimCE_v0.18.1.png)
 
 ```python
 class FuncBoxExample2(Scene):
@@ -646,7 +644,7 @@ class FuncBoxExample2(Scene):
 
 -----
 
-![FuncBoxExample3](examples/renders/FuncBoxExample3.mp4)
+![FuncBoxExample3](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/FuncBoxExample3.mp4)
 
 ```python
 class FuncBoxExample3(Scene):
@@ -679,7 +677,7 @@ class FuncBoxExample3(Scene):
 ## PaddingBlock
 
 
-![PaddingBlockExample1](examples/renders/PaddingBlockExample1.mp4)
+![PaddingBlockExample1](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/PaddingBlockExample1.mp4)
 
 ```python
 class PaddingBlockExample1(Scene):
@@ -701,7 +699,7 @@ class PaddingBlockExample1(Scene):
 
 -----
 
-![PaddingBlockExample2](examples/renders/PaddingBlockExample2.mp4)
+![PaddingBlockExample2](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/PaddingBlockExample2.mp4)
 
 ```python
 class PaddingBlockExample2(Scene):
@@ -718,7 +716,7 @@ class PaddingBlockExample2(Scene):
 
 -----
 
-![PaddingBlockExample3](examples/renders/PaddingBlockExample3.mp4)
+![PaddingBlockExample3](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/PaddingBlockExample3.mp4)
 
 ```python
 class PaddingBlockExample3(Scene):
@@ -775,7 +773,7 @@ class PaddingBlockExample3(Scene):
 
 -----
 
-![BoxLenExample2](examples/renders/BoxLenExample2.mp4)
+![BoxLenExample2](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/BoxLenExample2.mp4)
 
 ```python
 class BoxLenExample2(Scene):
@@ -807,7 +805,7 @@ class BoxLenExample2(Scene):
 ## Slide
 
 
-![SlideExample1](examples/renders/SlideExample1.mp4)
+![SlideExample1](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/SlideExample1.mp4)
 
 ```python
 class SlideExample1(Scene):
@@ -865,7 +863,7 @@ class SlideExample1(Scene):
 ## TextToBuffer
 
 
-![TextToBufferExample1](examples/renders/TextToBufferExample1.mp4)
+![TextToBufferExample1](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/TextToBufferExample1.mp4)
 
 ```python
 class TextToBufferExample1(Scene):

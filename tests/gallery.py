@@ -2,6 +2,7 @@
 
 from manim import *
 from manim_cranim import *
+from urllib.parse import urljoin
 
 
 _examples = {}
@@ -606,17 +607,21 @@ if __name__ == "__main__":
     import os.path
     import inspect
 
-    # config dumped from a run of `manim render -qh <file> <scene>`
-    # FIXME there must be a better way to populate this?
-    _manim_config = {'disable_caching': False, 'text_dir': '{media_dir}/texts', 'frame_x_radius': 7.111111111111111, 'write_to_movie': True, 'sections_dir': '{video_dir}/sections', 'partial_movie_dir': '{video_dir}/partial_movie_files/{scene_name}', 'disable_caching_warning': False, 'media_width': '60%', 'movie_file_extension': '.mp4', 'log_to_file': False, 'write_all': False, 'background_color': "#ece6e2", 'format': None, 'quality': 'high_quality', 'window_position': 'UR', 'max_files_cached': 100, 'upto_animation_number': float('inf'), 'preview': False, 'zero_pad': 4, 'ffmpeg_executable': 'ffmpeg', 'media_embed': None, 'from_animation_number': 0, 'tex_dir': '{media_dir}/Tex', 'frame_rate': 60, 'custom_folders': False, 'notify_outdated_version': True, 'save_last_frame': False, 'use_projection_stroke_shaders': False, 'input_file': '/home/eli/workspace/manim_cryptopals/challenge_10.py', 'save_sections': False, 'save_pngs': False, 'enable_gui': False, 'video_dir': '{media_dir}/videos/{module_name}/{quality}', 'frame_y_radius': 4.0, 'scene_names': ( 'c10_01_intro',), 'ffmpeg_loglevel': 'ERROR', 'flush_cache': False, 'frame_height': 8.0, 'window_size': 'default', 'output_file': None, 'force_window': False, 'plugins': [], 'pixel_width': 1920, 'use_projection_fill_shaders': False, 'progress_bar': 'display', 'assets_dir': './', 'background_opacity': 1.0, 'renderer': 'cairo', 'images_dir': '{media_dir}/images/{module_name}', 'frame_width': 14.222222222222221, 'media_dir': './media', 'pixel_height': 1080, 'window_monitor': 0, 'fullscreen': False, 'dry_run': False, 'save_as_gif': False, 'tex_template_file': None, 'gui_location': (0, 0), 'use_opengl_renderer': False, 'verbosity': 'INFO', 'log_dir': '{media_dir}/logs', 'show_in_file_browser': False, 'enable_wireframe': False}
-
     def _trim(source):
         lines = source.split("\n")
         lines = [line for line in lines if not (line.startswith("@example"))]
         return "\n".join(lines).strip()
 
-    #input("Clearing out examples folder. OK? (CTRL-C to cancel)")
-    shutil.rmtree("examples", ignore_errors=True)
+    # clean out the examples directory's contents, without deleting the directory itself
+    if os.path.exists("examples"):
+        with os.scandir("examples") as scan:
+            for entry in scan:
+                rel_path = os.path.join("examples", entry.name)
+                if entry.is_dir():
+                    shutil.rmtree(rel_path)
+                else:
+                    os.remove(rel_path)
+
     os.makedirs(os.path.join("examples", "renders"))
     rendered = {}
     def _write_scenes_to_file(outfile, scenes):
@@ -629,7 +634,7 @@ if __name__ == "__main__":
 
             dest = rendered.get(scene_name)
             if dest is None:  # avoid re-rendering
-                with tempconfig(_manim_config):
+                with tempconfig(config):
                     scene = Scene()
                     scene.render()
 
@@ -651,8 +656,9 @@ if __name__ == "__main__":
             else:
                 print("[*] Skipping re-rendering scene", scene_name)
 
+            url = urljoin("https://github.com/nccgroup/manim-cranim/raw/main/", dest)
             entries.append(f"""
-![{scene_name}]({dest})
+![{scene_name}]({url})
 
 ```python
 {_trim(inspect.getsource(Scene))}
@@ -666,13 +672,10 @@ if __name__ == "__main__":
         fname = name + ".md"
         _write_scenes_to_file("./examples/"+fname, scenes)
 
-    with open("./examples/index.md", "w") as f:
-        f.write("# Example Gallery\n\n\n[[_TOC_]]\n\n")
+    with open("./examples/README.md", "w") as f:
+        f.write("# Example Gallery\n\n\n")
         for name, scenes in sorted(_examples.items()):
             fname = name + ".md"
             with open("./examples/"+fname) as f2:
                 content = f2.read()
             f.write("## " + name + "\n\n" + content + "\n\n")
-
-    shutil.rmtree(os.path.join("..", "examples"), ignore_errors=True)
-    shutil.move("examples", "..")

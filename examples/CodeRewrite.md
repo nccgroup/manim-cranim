@@ -1,5 +1,5 @@
 
-![CodeRewriteExample1](examples/renders/CodeRewriteExample1.mp4)
+![CodeRewriteExample1](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/CodeRewriteExample1.mp4)
 
 ```python
 class CodeRewriteExample1(Scene):

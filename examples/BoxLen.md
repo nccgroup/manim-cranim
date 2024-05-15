@@ -1,5 +1,5 @@
 
-![BoxLenExample1](examples/renders/BoxLenExample1.mp4)
+![BoxLenExample1](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/BoxLenExample1.mp4)
 
 ```python
 class BoxLenExample1(Scene):
@@ -13,7 +13,7 @@ class BoxLenExample1(Scene):
 
 -----
 
-![BoxLenExample2](examples/renders/BoxLenExample2.mp4)
+![BoxLenExample2](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/BoxLenExample2.mp4)
 
 ```python
 class BoxLenExample2(Scene):

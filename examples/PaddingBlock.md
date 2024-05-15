@@ -1,5 +1,5 @@
 
-![PaddingBlockExample1](examples/renders/PaddingBlockExample1.mp4)
+![PaddingBlockExample1](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/PaddingBlockExample1.mp4)
 
 ```python
 class PaddingBlockExample1(Scene):
@@ -21,7 +21,7 @@ class PaddingBlockExample1(Scene):
 
 -----
 
-![PaddingBlockExample2](examples/renders/PaddingBlockExample2.mp4)
+![PaddingBlockExample2](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/PaddingBlockExample2.mp4)
 
 ```python
 class PaddingBlockExample2(Scene):
@@ -38,7 +38,7 @@ class PaddingBlockExample2(Scene):
 
 -----
 
-![PaddingBlockExample3](examples/renders/PaddingBlockExample3.mp4)
+![PaddingBlockExample3](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/PaddingBlockExample3.mp4)
 
 ```python
 class PaddingBlockExample3(Scene):
@@ -95,7 +95,7 @@ class PaddingBlockExample3(Scene):
 
 -----
 
-![BoxLenExample2](examples/renders/BoxLenExample2.mp4)
+![BoxLenExample2](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/BoxLenExample2.mp4)
 
 ```python
 class BoxLenExample2(Scene):

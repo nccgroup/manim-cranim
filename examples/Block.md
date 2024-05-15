@@ -1,5 +1,5 @@
 
-![SlideExample1](examples/renders/SlideExample1.mp4)
+![SlideExample1](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/SlideExample1.mp4)
 
 ```python
 class SlideExample1(Scene):
@@ -55,7 +55,7 @@ class SlideExample1(Scene):
 
 -----
 
-![BlockExample1](examples/renders/BlockExample1.mp4)
+![BlockExample1](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/BlockExample1.mp4)
 
 ```python
 class BlockExample1(Scene):
@@ -69,7 +69,7 @@ class BlockExample1(Scene):
 
 -----
 
-![BlockExample2](examples/renders/BlockExample2_ManimCE_v0.17.3.png)
+![BlockExample2](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/BlockExample2_ManimCE_v0.18.1.png)
 
 ```python
 class BlockExample2(Scene):
@@ -84,7 +84,7 @@ class BlockExample2(Scene):
 
 -----
 
-![BlockExample3](examples/renders/BlockExample3_ManimCE_v0.17.3.png)
+![BlockExample3](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/BlockExample3_ManimCE_v0.18.1.png)
 
 ```python
 class BlockExample3(Scene):

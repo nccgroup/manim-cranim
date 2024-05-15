@@ -1,5 +1,5 @@
 
-![BendyArrowExample1](examples/renders/BendyArrowExample1_ManimCE_v0.17.3.png)
+![BendyArrowExample1](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/BendyArrowExample1_ManimCE_v0.18.1.png)
 
 ```python
 class BendyArrowExample1(Scene):

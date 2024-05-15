@@ -1,5 +1,5 @@
 
-![ECBExample1](examples/renders/ECBExample1_ManimCE_v0.17.3.png)
+![ECBExample1](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/ECBExample1_ManimCE_v0.18.1.png)
 
 ```python
 class ECBExample1(Scene):
@@ -9,7 +9,7 @@ class ECBExample1(Scene):
 
 -----
 
-![ECBExample3](examples/renders/ECBExample3.mp4)
+![ECBExample3](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/ECBExample3.mp4)
 
 ```python
 class ECBExample3(Scene):
@@ -28,7 +28,7 @@ class ECBExample3(Scene):
 
 -----
 
-![ECBExample4](examples/renders/ECBExample4_ManimCE_v0.17.3.png)
+![ECBExample4](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/ECBExample4_ManimCE_v0.18.1.png)
 
 ```python
 class ECBExample4(Scene):

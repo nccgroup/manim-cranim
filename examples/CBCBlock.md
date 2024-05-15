@@ -1,5 +1,5 @@
 
-![CBCExample1](examples/renders/CBCExample1_ManimCE_v0.17.3.png)
+![CBCExample1](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/CBCExample1_ManimCE_v0.18.1.png)
 
 ```python
 class CBCExample1(Scene):
@@ -10,7 +10,7 @@ class CBCExample1(Scene):
 
 -----
 
-![CBCExample2](examples/renders/CBCExample2_ManimCE_v0.17.3.png)
+![CBCExample2](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/CBCExample2_ManimCE_v0.18.1.png)
 
 ```python
 class CBCExample2(Scene):
@@ -23,7 +23,7 @@ class CBCExample2(Scene):
 
 -----
 
-![CBCExample3](examples/renders/CBCExample3_ManimCE_v0.17.3.png)
+![CBCExample3](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/CBCExample3_ManimCE_v0.18.1.png)
 
 ```python
 class CBCExample3(Scene):
@@ -36,7 +36,7 @@ class CBCExample3(Scene):
 
 -----
 
-![CBCExample4](examples/renders/CBCExample4.mp4)
+![CBCExample4](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/CBCExample4.mp4)
 
 ```python
 class CBCExample4(MovingCameraScene):  # Loops seamlessly
@@ -77,7 +77,7 @@ class CBCExample4(MovingCameraScene):  # Loops seamlessly
 
 -----
 
-![CBCExample5](examples/renders/CBCExample5_ManimCE_v0.17.3.png)
+![CBCExample5](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/CBCExample5_ManimCE_v0.18.1.png)
 
 ```python
 class CBCExample5(Scene):
@@ -89,7 +89,7 @@ class CBCExample5(Scene):
 
 -----
 
-![CBCExample6](examples/renders/CBCExample6.mp4)
+![CBCExample6](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/CBCExample6.mp4)
 
 ```python
 class CBCExample6(Scene):

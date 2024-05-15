@@ -1,5 +1,5 @@
 
-![SlideExample1](examples/renders/SlideExample1.mp4)
+![SlideExample1](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/SlideExample1.mp4)
 
 ```python
 class SlideExample1(Scene):

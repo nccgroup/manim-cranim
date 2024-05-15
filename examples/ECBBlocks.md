@@ -1,5 +1,5 @@
 
-![ECBExample2](examples/renders/ECBExample2_ManimCE_v0.17.3.png)
+![ECBExample2](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/ECBExample2_ManimCE_v0.18.1.png)
 
 ```python
 class ECBExample2(Scene):

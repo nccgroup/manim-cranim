@@ -1,5 +1,5 @@
 
-![BufferToTextExample1](examples/renders/BufferToTextExample1.mp4)
+![BufferToTextExample1](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/BufferToTextExample1.mp4)
 
 ```python
 class BufferToTextExample1(Scene):

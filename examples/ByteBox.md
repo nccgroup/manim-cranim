@@ -1,5 +1,5 @@
 
-![ByteBoxExample1](examples/renders/ByteBoxExample1_ManimCE_v0.17.3.png)
+![ByteBoxExample1](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/ByteBoxExample1_ManimCE_v0.18.1.png)
 
 ```python
 class ByteBoxExample1(Scene):
@@ -14,7 +14,7 @@ class ByteBoxExample1(Scene):
 
 -----
 
-![ByteBoxExample2](examples/renders/ByteBoxExample2.mp4)
+![ByteBoxExample2](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/ByteBoxExample2.mp4)
 
 ```python
 class ByteBoxExample2(Scene):

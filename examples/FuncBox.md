@@ -1,5 +1,5 @@
 
-![FuncBoxExample1](examples/renders/FuncBoxExample1_ManimCE_v0.17.3.png)
+![FuncBoxExample1](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/FuncBoxExample1_ManimCE_v0.18.1.png)
 
 ```python
 class FuncBoxExample1(Scene):
@@ -9,7 +9,7 @@ class FuncBoxExample1(Scene):
 
 -----
 
-![FuncBoxExample2](examples/renders/FuncBoxExample2_ManimCE_v0.17.3.png)
+![FuncBoxExample2](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/FuncBoxExample2_ManimCE_v0.18.1.png)
 
 ```python
 class FuncBoxExample2(Scene):
@@ -37,7 +37,7 @@ class FuncBoxExample2(Scene):
 
 -----
 
-![FuncBoxExample3](examples/renders/FuncBoxExample3.mp4)
+![FuncBoxExample3](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/FuncBoxExample3.mp4)
 
 ```python
 class FuncBoxExample3(Scene):

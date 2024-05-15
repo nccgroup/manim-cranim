@@ -1,5 +1,5 @@
 
-![ECBvsCBCExample](examples/renders/ECBvsCBCExample.mp4)
+![ECBvsCBCExample](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/ECBvsCBCExample.mp4)
 
 ```python
 class ECBvsCBCExample(Scene):
@@ -35,7 +35,7 @@ class ECBvsCBCExample(Scene):
 
 -----
 
-![CTSExample](examples/renders/CTSExample_ManimCE_v0.17.3.png)
+![CTSExample](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/CTSExample_ManimCE_v0.18.1.png)
 
 ```python
 class CTSExample(Scene):
@@ -65,7 +65,7 @@ class CTSExample(Scene):
 
 -----
 
-![SlideExample1](examples/renders/SlideExample1.mp4)
+![SlideExample1](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/SlideExample1.mp4)
 
 ```python
 class SlideExample1(Scene):
@@ -121,7 +121,7 @@ class SlideExample1(Scene):
 
 -----
 
-![CodeRewriteExample1](examples/renders/CodeRewriteExample1.mp4)
+![CodeRewriteExample1](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/CodeRewriteExample1.mp4)
 
 ```python
 class CodeRewriteExample1(Scene):

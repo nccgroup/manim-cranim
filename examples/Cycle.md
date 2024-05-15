@@ -1,5 +1,5 @@
 
-![CycleExample1](examples/renders/CycleExample1.mp4)
+![CycleExample1](https://github.com/nccgroup/manim-cranim/raw/main/examples/renders/CycleExample1.mp4)
 
 ```python
 class CycleExample1(Scene):
