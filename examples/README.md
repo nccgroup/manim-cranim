@@ -1,6 +1,9 @@
 # Example Gallery
 
 
+Annoyingly, the video embeds don't work on GitHub, so you'll have to click through (or use your imagination).
+
+
 ##  Showcase
 
 
