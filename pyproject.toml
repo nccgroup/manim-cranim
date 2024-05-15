@@ -7,9 +7,10 @@ readme = "README.md"
 packages = [{include = "manim_cranim", from = "src"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
-manim = "^0.17"
-pycryptodome = "^3.17"
+python = "*"
+manim = "*"
+pycryptodome = "*"
+colour = "*"
 
 [tool.poetry.plugins."manim.plugins"]
 "manim_cranim" = "manim_cranim"
