@@ -3,10 +3,11 @@
 
 ##  Showcase
 
-
+{::nomarkdown}
 <video controls allowfullscreen width=100%>
   <source src="renders/ECBvsCBCExample.mp4" type="video/mp4">
 </video>
+{:/nomarkdown}
 
 ```python
 class ECBvsCBCExample(Scene):
