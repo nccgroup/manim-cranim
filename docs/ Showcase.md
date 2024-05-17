@@ -39,7 +39,7 @@ class ECBvsCBCExample(Scene):
 -----
 
 {::nomarkdown}
-<video controls allowfullscreen width=100%> <source src="renders/CTSExample_ManimCE_v0.18.1.png" type="video/mp4"> </video>
+<img src="renders/CTSExample_ManimCE_v0.18.1.png" width=100%>
 {:/nomarkdown}
 
 ```python

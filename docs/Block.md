@@ -74,7 +74,7 @@ class BlockExample1(Scene):
 -----
 
 {::nomarkdown}
-<video controls allowfullscreen width=100%> <source src="renders/BlockExample2_ManimCE_v0.18.1.png" type="video/mp4"> </video>
+<img src="renders/BlockExample2_ManimCE_v0.18.1.png" width=100%>
 {:/nomarkdown}
 
 ```python
@@ -91,7 +91,7 @@ class BlockExample2(Scene):
 -----
 
 {::nomarkdown}
-<video controls allowfullscreen width=100%> <source src="renders/BlockExample3_ManimCE_v0.18.1.png" type="video/mp4"> </video>
+<img src="renders/BlockExample3_ManimCE_v0.18.1.png" width=100%>
 {:/nomarkdown}
 
 ```python

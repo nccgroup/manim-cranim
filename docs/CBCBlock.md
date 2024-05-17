@@ -1,6 +1,6 @@
 
 {::nomarkdown}
-<video controls allowfullscreen width=100%> <source src="renders/CBCExample1_ManimCE_v0.18.1.png" type="video/mp4"> </video>
+<img src="renders/CBCExample1_ManimCE_v0.18.1.png" width=100%>
 {:/nomarkdown}
 
 ```python
@@ -13,7 +13,7 @@ class CBCExample1(Scene):
 -----
 
 {::nomarkdown}
-<video controls allowfullscreen width=100%> <source src="renders/CBCExample2_ManimCE_v0.18.1.png" type="video/mp4"> </video>
+<img src="renders/CBCExample2_ManimCE_v0.18.1.png" width=100%>
 {:/nomarkdown}
 
 ```python
@@ -28,7 +28,7 @@ class CBCExample2(Scene):
 -----
 
 {::nomarkdown}
-<video controls allowfullscreen width=100%> <source src="renders/CBCExample3_ManimCE_v0.18.1.png" type="video/mp4"> </video>
+<img src="renders/CBCExample3_ManimCE_v0.18.1.png" width=100%>
 {:/nomarkdown}
 
 ```python
@@ -86,7 +86,7 @@ class CBCExample4(MovingCameraScene):  # Loops seamlessly
 -----
 
 {::nomarkdown}
-<video controls allowfullscreen width=100%> <source src="renders/CBCExample5_ManimCE_v0.18.1.png" type="video/mp4"> </video>
+<img src="renders/CBCExample5_ManimCE_v0.18.1.png" width=100%>
 {:/nomarkdown}
 
 ```python

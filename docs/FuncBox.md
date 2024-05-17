@@ -1,6 +1,6 @@
 
 {::nomarkdown}
-<video controls allowfullscreen width=100%> <source src="renders/FuncBoxExample1_ManimCE_v0.18.1.png" type="video/mp4"> </video>
+<img src="renders/FuncBoxExample1_ManimCE_v0.18.1.png" width=100%>
 {:/nomarkdown}
 
 ```python
@@ -12,7 +12,7 @@ class FuncBoxExample1(Scene):
 -----
 
 {::nomarkdown}
-<video controls allowfullscreen width=100%> <source src="renders/FuncBoxExample2_ManimCE_v0.18.1.png" type="video/mp4"> </video>
+<img src="renders/FuncBoxExample2_ManimCE_v0.18.1.png" width=100%>
 {:/nomarkdown}
 
 ```python

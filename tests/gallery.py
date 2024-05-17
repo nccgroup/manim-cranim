@@ -664,15 +664,21 @@ if __name__ == "__main__":
             else:
                 print("[*] Skipping re-rendering scene", scene_name)
 
+            if dest.endswith(".mp4"):
+                embed = f'<video controls allowfullscreen width=100%> <source src="{dest[9:]}" type="video/mp4"> </video>'
+            else:
+                embed = f'<img src="{dest[9:]}" width=100%>'
+
             entries.append(f"""
 {{::nomarkdown}}
-<video controls allowfullscreen width=100%> <source src="{dest[9:]}" type="video/mp4"> </video>
+{embed}
 {{:/nomarkdown}}
 
 ```python
 {_trim(inspect.getsource(Scene))}
 ```
 """)
+
         with open(outfile, "w") as f:
             f.write("\n-----\n".join(entries))
 

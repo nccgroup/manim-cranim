@@ -44,7 +44,7 @@ class ECBvsCBCExample(Scene):
 -----
 
 {::nomarkdown}
-<video controls allowfullscreen width=100%> <source src="renders/CTSExample_ManimCE_v0.18.1.png" type="video/mp4"> </video>
+<img src="renders/CTSExample_ManimCE_v0.18.1.png" width=100%>
 {:/nomarkdown}
 
 ```python
@@ -155,7 +155,7 @@ class CodeRewriteExample1(Scene):
 
 
 {::nomarkdown}
-<video controls allowfullscreen width=100%> <source src="renders/BendyArrowExample1_ManimCE_v0.18.1.png" type="video/mp4"> </video>
+<img src="renders/BendyArrowExample1_ManimCE_v0.18.1.png" width=100%>
 {:/nomarkdown}
 
 ```python
@@ -259,7 +259,7 @@ class BlockExample1(Scene):
 -----
 
 {::nomarkdown}
-<video controls allowfullscreen width=100%> <source src="renders/BlockExample2_ManimCE_v0.18.1.png" type="video/mp4"> </video>
+<img src="renders/BlockExample2_ManimCE_v0.18.1.png" width=100%>
 {:/nomarkdown}
 
 ```python
@@ -276,7 +276,7 @@ class BlockExample2(Scene):
 -----
 
 {::nomarkdown}
-<video controls allowfullscreen width=100%> <source src="renders/BlockExample3_ManimCE_v0.18.1.png" type="video/mp4"> </video>
+<img src="renders/BlockExample3_ManimCE_v0.18.1.png" width=100%>
 {:/nomarkdown}
 
 ```python
@@ -374,7 +374,7 @@ class BufferToTextExample1(Scene):
 
 
 {::nomarkdown}
-<video controls allowfullscreen width=100%> <source src="renders/ByteBoxExample1_ManimCE_v0.18.1.png" type="video/mp4"> </video>
+<img src="renders/ByteBoxExample1_ManimCE_v0.18.1.png" width=100%>
 {:/nomarkdown}
 
 ```python
@@ -442,7 +442,7 @@ class ByteBoxExample2(Scene):
 
 
 {::nomarkdown}
-<video controls allowfullscreen width=100%> <source src="renders/CBCExample1_ManimCE_v0.18.1.png" type="video/mp4"> </video>
+<img src="renders/CBCExample1_ManimCE_v0.18.1.png" width=100%>
 {:/nomarkdown}
 
 ```python
@@ -455,7 +455,7 @@ class CBCExample1(Scene):
 -----
 
 {::nomarkdown}
-<video controls allowfullscreen width=100%> <source src="renders/CBCExample2_ManimCE_v0.18.1.png" type="video/mp4"> </video>
+<img src="renders/CBCExample2_ManimCE_v0.18.1.png" width=100%>
 {:/nomarkdown}
 
 ```python
@@ -470,7 +470,7 @@ class CBCExample2(Scene):
 -----
 
 {::nomarkdown}
-<video controls allowfullscreen width=100%> <source src="renders/CBCExample3_ManimCE_v0.18.1.png" type="video/mp4"> </video>
+<img src="renders/CBCExample3_ManimCE_v0.18.1.png" width=100%>
 {:/nomarkdown}
 
 ```python
@@ -528,7 +528,7 @@ class CBCExample4(MovingCameraScene):  # Loops seamlessly
 -----
 
 {::nomarkdown}
-<video controls allowfullscreen width=100%> <source src="renders/CBCExample5_ManimCE_v0.18.1.png" type="video/mp4"> </video>
+<img src="renders/CBCExample5_ManimCE_v0.18.1.png" width=100%>
 {:/nomarkdown}
 
 ```python
@@ -598,7 +598,7 @@ class CycleExample1(Scene):
 
 
 {::nomarkdown}
-<video controls allowfullscreen width=100%> <source src="renders/ECBExample1_ManimCE_v0.18.1.png" type="video/mp4"> </video>
+<img src="renders/ECBExample1_ManimCE_v0.18.1.png" width=100%>
 {:/nomarkdown}
 
 ```python
@@ -631,7 +631,7 @@ class ECBExample3(Scene):
 -----
 
 {::nomarkdown}
-<video controls allowfullscreen width=100%> <source src="renders/ECBExample4_ManimCE_v0.18.1.png" type="video/mp4"> </video>
+<img src="renders/ECBExample4_ManimCE_v0.18.1.png" width=100%>
 {:/nomarkdown}
 
 ```python
@@ -647,7 +647,7 @@ class ECBExample4(Scene):
 
 
 {::nomarkdown}
-<video controls allowfullscreen width=100%> <source src="renders/ECBExample2_ManimCE_v0.18.1.png" type="video/mp4"> </video>
+<img src="renders/ECBExample2_ManimCE_v0.18.1.png" width=100%>
 {:/nomarkdown}
 
 ```python
@@ -661,7 +661,7 @@ class ECBExample2(Scene):
 
 
 {::nomarkdown}
-<video controls allowfullscreen width=100%> <source src="renders/FuncBoxExample1_ManimCE_v0.18.1.png" type="video/mp4"> </video>
+<img src="renders/FuncBoxExample1_ManimCE_v0.18.1.png" width=100%>
 {:/nomarkdown}
 
 ```python
@@ -673,7 +673,7 @@ class FuncBoxExample1(Scene):
 -----
 
 {::nomarkdown}
-<video controls allowfullscreen width=100%> <source src="renders/FuncBoxExample2_ManimCE_v0.18.1.png" type="video/mp4"> </video>
+<img src="renders/FuncBoxExample2_ManimCE_v0.18.1.png" width=100%>
 {:/nomarkdown}
 
 ```python
