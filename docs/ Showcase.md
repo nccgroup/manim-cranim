@@ -1,8 +1,3 @@
-# Example Gallery
-
-
-##  Showcase
-
 
 <video controls allowfullscreen width=100%>
   <source src="renders/ECBvsCBCExample.mp4" type="video/mp4">
@@ -39,5 +34,3 @@ class ECBvsCBCExample(Scene):
             lag_ratio=0.7
         ))
 ```
-
-
