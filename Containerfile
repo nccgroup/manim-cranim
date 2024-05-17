@@ -1,7 +1,7 @@
 # Used for rendering the example gallery. Enables reproducible "clean-room" renders, independent of host OS.
 # 
 # This is probably compatible with Docker, but I like to use Podman:
-#   $ podman build --tag cranim -f Containerfile; podman run --rm -it -v (pwd)/examples:/cranim/tests/examples cranim
+#   $ podman build --tag cranim -f Containerfile; podman run --rm -it -v (pwd)/docs:/cranim/tests/examples cranim
 #
 # Please note that this build-and-render process does take a while to complete.
 # Note also that the container will have to be (partially) rebuilt whenever changes are made to cranim.
