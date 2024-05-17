@@ -21,6 +21,7 @@ def example(of):
 
 @example(" Showcase")  # "Showcase" is prefixed with a space to prioritize it in lexographic sort ordering
 class ECBvsCBCExample(Scene):
+    # Demonstrates how plaintext changes propagate in ECB and CBC modes.
     def construct(self):
         ecb = ECBBlocks(bytes(16*5), direction=RIGHT, zoom=0.36)
         cbc = CBCBlocks(bytes(16*5))
@@ -53,6 +54,7 @@ class ECBvsCBCExample(Scene):
 
 @example(" Showcase")
 class CTSExample(Scene):
+    # Demonstrates modifying CBCBlock to create a figure for CTS mode
     def construct(self):
         block_0 = CBCBlock(direction=DOWN, margin=3)
         block_1 = CBCBlock(prev=block_0, direction=DOWN, margin=3.4)
@@ -663,9 +665,9 @@ if __name__ == "__main__":
                 print("[*] Skipping re-rendering scene", scene_name)
 
             entries.append(f"""
-{::nomarkdown}
-<video controls allowfullscreen width=100%> <source src="renders/{fname}" type="video/mp4"> </video>
-{:/nomarkdown}
+{{::nomarkdown}}
+<video controls allowfullscreen width=100%> <source src="{dest[9:]}" type="video/mp4"> </video>
+{{:/nomarkdown}}
 
 ```python
 {_trim(inspect.getsource(Scene))}
